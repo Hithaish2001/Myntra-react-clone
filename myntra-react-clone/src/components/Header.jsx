@@ -24,8 +24,7 @@ const Header = () => {
                 <a href="#">Studio <sup>New</sup></a>
             </nav>
             <div className="search_bar">
-                <span className="material-symbols-outlined search_icon">search</span>
-                <input className="search_input" placeholder="Search for products, brands and more" />
+                <input className="search_input" placeholder="  Search for products, brands and more" />
             </div>
             <div className="action_bar">
                 <div className="action_container">

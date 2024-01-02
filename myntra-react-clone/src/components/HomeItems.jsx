@@ -32,9 +32,9 @@ const HomeItems = ({item}) => {
             <span className="discount">({item.discount_percentage}% OFF)</span>
         </div>
         {elementFound ? 
-          <button type="button" class="btn btn-add-bag btn-danger" onClick={HandleRemovefromBag}><MdOutlineDeleteForever /> Remove from Bag</button> 
+          <button type="button" className="btn btn-add-bag btn-danger" onClick={HandleRemovefromBag}><MdOutlineDeleteForever /> Remove from Bag</button> 
         : 
-          <button type="button" class="btn btn-add-bag btn-success" onClick={HandleAddtoBag}> <MdAddShoppingCart /> Add to Bag</button>
+          <button type="button" className="btn btn-add-bag btn-success" onClick={HandleAddtoBag}> <MdAddShoppingCart /> Add to Bag</button>
         }
         
         
